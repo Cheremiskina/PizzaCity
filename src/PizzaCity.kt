@@ -1,5 +1,7 @@
+package src
+
 abstract class PizzaCity(val neapolitanPizzaPrice: Double, val romanPizzaPrice: Double,
-                         val sicilianPizzaPrice: Double,val tyroleanPizzaPrice: Double) {
+                         val sicilianPizzaPrice: Double, val tyroleanPizzaPrice: Double) {
     protected var neapolitanPizzaCount = 0
     protected var romanPizzaCount = 0
     protected var sicilianPizzaCount = 0

@@ -1,10 +1,10 @@
-import kotlin.system.exitProcess
+package src
 
 fun main(){
     val pizzaPeter = PizzaPeter(175.0, 241.5, 167.5, 215.0)
     val pizzaMoscow = PizzaMoscow(215.0, 250.5, 180.5, 240.0)
     val pizzaKirov = PizzaKirov(200.0, 230.0, 180.0, 220.0)
-    var currentPizzaCity:PizzaCity
+    var currentPizzaCity: PizzaCity
 
     while (true){
         println("\nДобрый день! Выберете город")

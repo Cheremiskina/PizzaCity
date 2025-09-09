@@ -1,3 +1,5 @@
+package src
+
 class PizzaMoscow(
     neapolitanPizzaPrice: Double, romanPizzaPrice: Double, sicilianPizzaPrice: Double,tyroleanPizzaPrice: Double
 ) : PizzaCity(neapolitanPizzaPrice, romanPizzaPrice, sicilianPizzaPrice, tyroleanPizzaPrice
